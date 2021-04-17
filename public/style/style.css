@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin : 0;
+    background-color: #020113;
+}
+
+nav {
+    display : flex;
+    background-color:white;
+    height : 10vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.minicristal{
+    margin : 4vw;
+    height : 8vh
+}
+
+.routes{
+    display : flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a{
+    font-size: 1.5em ;
+    font-weight: bold;
+    margin : 4vw;
+    color :  #283343;
+}
+
+.container {
+    height: 100vh;
+    background-image: url('/images/cristal.jpg');
+    background-position:unset;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 4em;
+    padding-top: 4%;
+    border: 3px, solid, #283343;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h1, h2{
+    margin-left: 20%;
+    color: white;
+    text-align: center;
+}
+.nobuo{
+    margin-left: 20%;
+    width: 200px;
+    object-fit: contain;
+}
+
+.biographie{
+    width: 40vw;
+    color: white;
+    margin-left: 20%;
+    font-size: 2em;
+}
+
